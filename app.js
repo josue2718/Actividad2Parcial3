@@ -7,6 +7,14 @@ function validaredad() {
         alert(Vedad);
         document.getElementById('Vedad').textContent= Vedad
     }
+    else
+    {
+        let Vedad = "No puede manejar";
+        alert(Vedad);
+        document.getElementById('Vedad').textContent= Vedad
+
+    }
+
 }
 
 function validarnota()
@@ -71,3 +79,7 @@ function calcularLetraDNI() {
             }
         }
     }
+
+    
+
+    
